@@ -42,7 +42,7 @@ elif page == "Projects":
                 st.write("New number generated. Try guessing again!")
                 st.session_state.gameover=False
             
-    elif page == "Contact":
+elif  page == "Contact":
             st.header("Contact")
             st.write("Mobile No: 6374198723")
             st.write("Email: appu20082006@gmail.com")
